@@ -5,8 +5,32 @@
     --fw-normal: 400;
     --fw-bold: 700;
     --fw-black: 900;
+    --grid: 1fr;
 }
 
-.wheater-sec {
-    background-color: red;
+
+header {
+    background-color: var(--clr-light);
+    padding: 1em;
+    text-align: center;
+    
 }
+
+.nav__list {
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    letter-spacing: 1px;
+    justify-content: space-evenly;
+}
+
+.nav__link {
+    color: inherit;
+}
+
+
+
+
+
+
