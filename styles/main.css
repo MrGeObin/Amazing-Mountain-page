@@ -11,7 +11,6 @@
 
 header {
     background-color: var(--clr-light);
-    padding: 1em;
     text-align: center;
     
 }
@@ -29,7 +28,52 @@ header {
     color: inherit;
 }
 
+.wheater {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    position: relative;
+}
 
+.wheater__icon {
+    grid-row: span 2;
+    background-color: var(--clr-primary);
+    padding: 0.5em;
+    display: flex;
+}
+
+.wheater__info {
+    background-color: var(--clr-dark);
+    padding: 5px;
+    width: 100%;
+    font-weight: var(--fw-bold);
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+
+.wheater__info span {
+    color: var(--clr-light);
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: .75rem;
+}
+
+.wheater__info-des {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.wheater__info:first-of-type {
+    
+    position: relative;
+}
+
+.wheater__info:first-of-type::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: var(--clr-light);
+    bottom: 0;
+}
 
 
 
