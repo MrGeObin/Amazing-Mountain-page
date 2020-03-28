@@ -102,3 +102,24 @@ header {
     padding: 3em 1em;
 }
 
+.main__title {
+    line-height: 2.9rem;
+    margin-bottom: var(--m-botton);
+}
+
+.main__intro {
+    margin-bottom: var(--m-botton);
+}
+
+.btn {
+    padding: 10px 12px;
+}
+.btn-primary {
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+}
+
+.btn-outline {
+    /* border: 3px solid var(--clr-primary); */
+    outline: solid;
+}
