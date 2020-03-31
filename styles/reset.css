@@ -25,3 +25,5 @@ body {
     color: var(--clr-dark);
     line-height: 1.6;
 }
+
+h1, h2, h3 { line-height: 1; }
